@@ -18,7 +18,7 @@
 
 📍 [Akshay Kumar Kushwaha](https://github.com/xiakshay)
 
-📍 [Akshay Kumar Kushwaha](https://github.com/sayak007das)
+📍 [Sayak Das](https://github.com/sayak007das)
 
 📍 [Prachi Agarwal]()
 
