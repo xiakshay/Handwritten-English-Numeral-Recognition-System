@@ -20,7 +20,9 @@
 
 📍 [Sayak Das](https://github.com/sayak007das)
 
-📍 [Prachi Agarwal]()
+📍 [Prachi Agarwal](https://github.com/Prachi-16-max)
+
+📍 [Aniket Mittal](https://github.com/Prachi-16-max)
 
 ---
 🎈 Hello 👋 contributers and visitors! Your welcome to contribute and suggest ideas for this project. 
