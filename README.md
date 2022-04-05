@@ -34,6 +34,11 @@
 >>> Uses `API` to recognize numbers 
 
 ---
+### Results
+
+![img](./Multi-Digit%20Recog/multi%20Digit%2090%25%20accuracy/img/result.png)
+
+---
 🥨Team Members
 
 📍 [Akshay Kumar Kushwaha](https://github.com/xiakshay)
