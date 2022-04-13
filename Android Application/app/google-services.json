@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409314303888",
+    "project_id": "image-recognization-digit",
+    "storage_bucket": "image-recognization-digit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409314303888:android:8b0f118278f85cc4631d15",
+        "android_client_info": {
+          "package_name": "com.android.imagerecognization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409314303888-art8vpevokcb0e2ri4ib6fmtq4cj6orn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_HD2hLcibRRg7Xmbtcu8mlP1btvveKio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409314303888-art8vpevokcb0e2ri4ib6fmtq4cj6orn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
