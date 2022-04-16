@@ -4,12 +4,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.content.ClipboardManager;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -25,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     TextView resultBox;
     Button choose;
+    Button copyText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         resultBox = findViewById(R.id.textView);
         choose = findViewById(R.id.button);
+        copyText = findViewById(R.id.copytext);
+
 
         choose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +50,22 @@ public class MainActivity extends AppCompatActivity {
                 i.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(Intent.createChooser(i,"select image"),121);
 
+            }
+        });
+
+
+        copyText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    String resulttext = resultBox.getText().toString();
+                    ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+                    ClipData clip = ClipData.newPlainText("label", resulttext);
+                    clipboard.setPrimaryClip(clip);
+                    Toast.makeText(getApplicationContext(),"Copied!!",Toast.LENGTH_LONG).show();
+                }catch (Exception ignored){
+                    Toast.makeText(getApplicationContext(),"Not Copied!!",Toast.LENGTH_LONG).show();
+                }
             }
         });
 
