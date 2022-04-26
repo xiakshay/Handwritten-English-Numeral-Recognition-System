@@ -3,8 +3,18 @@
 This is **Documentation** part for this project.
 
 ➰ Documents
-* Project Proposal 🎇
-* Projetct Synopsis
-* Proejct Report 📝
-* PPT 🖊
-* Research Paper 🔍
+Documents 📃 | Status 🗽
+-----|----
+Project Proposal 🎇| Completed ✅
+Projetct Synopsis | Completed ✅
+Proejct Report 📝| Running... 🏃‍♂️
+PPT 🖊 | 📍 Not Started Yet
+Research Paper 🔍 | 📍 Not Started Yet
+
+----
+
+```
+See You Soon...
+
+```
+
